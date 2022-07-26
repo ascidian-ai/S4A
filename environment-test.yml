@@ -1,0 +1,45 @@
+name: S4A
+
+channels:
+    - pytorch
+    - conda-forge
+    - anaconda-fusion
+    - defaults
+
+dependencies:
+    - conda
+    - pip3
+    - python==3.10
+    - jupyterlab_widgets
+    - jupyterlab
+    - funcy
+    - geopandas
+    - seaborn
+    - matplotlib
+    - netCDF4
+    - xarray
+    - descartes
+    - geopy
+    - rasterstats
+    - pystac-client
+    - odc-stac
+    - sentinelsat
+    - pycocotools
+    - sentinelhub
+    - pyarrow
+    - cudatoolkit=11.3
+    - pytorch
+    - torchvision
+    - pytorch-lightning
+    - torchmetrics
+    - timm
+    - tensorboard-data-server
+    - tensorboard-plugin-wit
+    - tensorboardX
+    - transformers
+    - pip:
+        - arff
+        - scikit-multilearn
+        - torchlars
+        - dea-tools
+
